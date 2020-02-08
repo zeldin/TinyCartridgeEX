@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RETRO_Innovations)(type KiCad)(uri ${KIPRJMOD}/RETRO_Innovations.pretty)(options "")(descr ""))
+)

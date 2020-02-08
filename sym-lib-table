@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name RETRO_Innovations)(type Legacy)(uri ${KIPRJMOD}/RETRO_Innovations.lib)(options "")(descr ""))
+  (lib (name buffers)(type Legacy)(uri ${KIPRJMOD}/buffers.lib)(options "")(descr ""))
+  (lib (name fpga)(type Legacy)(uri ${KIPRJMOD}/fpga.lib)(options "")(descr ""))
+)
