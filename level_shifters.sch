@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TinyCartridgeEX-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -64,9 +65,11 @@ L Logic_LevelTranslator:SN74AVC8T245PW U2
 U 1 1 5E417FDE
 P 2250 2450
 F 0 "U2" H 1900 1800 50  0000 C CNN
-F 1 "SN74AVC8T245PW" V 2250 2400 39  0000 C CNN
+F 1 "SN74LVC8T245" V 2250 2400 39  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3150 1800 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 2200 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 2200 2200 50  0001 C CNN
+F 4 "595-SN74LVC8T245PWR" H 2250 2450 50  0001 C CNN "Mouser Part No"
+F 5 "0.92" H 2250 2450 50  0001 C CNN "Pricing (EUR)"
 	1    2250 2450
 	1    0    0    -1  
 $EndComp
@@ -75,9 +78,11 @@ L Logic_LevelTranslator:SN74AVC8T245PW U3
 U 1 1 5E417FE4
 P 7650 2650
 F 0 "U3" H 7300 3200 50  0000 C CNN
-F 1 "SN74AVC8T245PW" V 7650 2550 39  0000 C CNN
+F 1 "SN74LVC8T245" V 7650 2550 39  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 8550 2000 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 7600 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 7600 2400 50  0001 C CNN
+F 4 "595-SN74LVC8T245PWR" H 7650 2650 50  0001 C CNN "Mouser Part No"
+F 5 "0.92" H 7650 2650 50  0001 C CNN "Pricing (EUR)"
 	1    7650 2650
 	-1   0    0    -1  
 $EndComp
@@ -86,9 +91,11 @@ L Logic_LevelTranslator:SN74AVC8T245PW U1
 U 1 1 5E417FFA
 P 5600 2650
 F 0 "U1" H 5250 3200 50  0000 C CNN
-F 1 "SN74AVC8T245PW" V 5600 2550 39  0000 C CNN
+F 1 "SN74LVC8T245" V 5600 2550 39  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 6500 2000 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 5550 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 5550 2400 50  0001 C CNN
+F 4 "595-SN74LVC8T245PWR" H 5600 2650 50  0001 C CNN "Mouser Part No"
+F 5 "0.92" H 5600 2650 50  0001 C CNN "Pricing (EUR)"
 	1    5600 2650
 	-1   0    0    -1  
 $EndComp
@@ -376,7 +383,9 @@ P 1950 6350
 F 0 "U6" H 1850 6500 50  0000 C CNN
 F 1 "74LVC1G06" H 1925 6526 50  0001 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1950 6350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1950 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf" H 1950 6350 50  0001 C CNN
+F 4 "595-SN74LVC1G06DBVR" H 1950 6350 50  0001 C CNN "Mouser Part No"
+F 5 "0.23" H 1950 6350 50  0001 C CNN "Pricing (EUR)"
 	1    1950 6350
 	0    -1   -1   0   
 $EndComp
@@ -526,9 +535,11 @@ L buffers:74AHCV17A U4
 U 5 1 5E4BADBE
 P 6750 4150
 F 0 "U4" H 6725 4325 50  0000 C CNN
-F 1 "74AHCV17A" H 6725 4326 50  0001 C CNN
+F 1 "74LV17A" H 6725 4326 50  0001 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6750 4150 50  0001 C CNN
-F 3 "" H 6750 4150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV17A.pdf" H 6750 4150 50  0001 C CNN
+F 4 "771-74LV17APWJ" H 6750 4150 50  0001 C CNN "Mouser Part No"
+F 5 "0.36" H 6750 4150 50  0001 C CNN "Pricing (EUR)"
 	5    6750 4150
 	1    0    0    -1  
 $EndComp
@@ -537,9 +548,11 @@ L buffers:74AHCV17A U4
 U 6 1 5E4BBE3B
 P 6400 4500
 F 0 "U4" H 6200 4350 50  0000 L CNN
-F 1 "74AHCV17A" V 6420 4630 50  0001 L CNN
+F 1 "74LV17A" V 6420 4630 50  0001 L CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6400 4500 50  0001 C CNN
-F 3 "" H 6400 4500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV17A.pdf" H 6400 4500 50  0001 C CNN
+F 4 "771-74LV17APWJ" H 6400 4500 50  0001 C CNN "Mouser Part No"
+F 5 "0.36" H 6400 4500 50  0001 C CNN "Pricing (EUR)"
 	6    6400 4500
 	1    0    0    -1  
 $EndComp
@@ -548,9 +561,11 @@ L buffers:74AHCV17A U4
 U 1 1 5E4BE625
 P 2400 6050
 F 0 "U4" H 2200 5900 50  0000 L CNN
-F 1 "74AHCV17A" H 2375 5874 50  0001 C CNN
+F 1 "74LV17A" H 2375 5874 50  0001 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2400 6050 50  0001 C CNN
-F 3 "" H 2400 6050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV17A.pdf" H 2400 6050 50  0001 C CNN
+F 4 "771-74LV17APWJ" H 2400 6050 50  0001 C CNN "Mouser Part No"
+F 5 "0.36" H 2400 6050 50  0001 C CNN "Pricing (EUR)"
 	1    2400 6050
 	0    1    1    0   
 $EndComp
@@ -559,9 +574,11 @@ L buffers:74AHCV17A U4
 U 4 1 5E4BF277
 P 5650 6500
 F 0 "U4" H 5450 6350 50  0000 L CNN
-F 1 "74AHCV17A" V 5670 6630 50  0001 L CNN
+F 1 "74LV17A" V 5670 6630 50  0001 L CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5650 6500 50  0001 C CNN
-F 3 "" H 5650 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV17A.pdf" H 5650 6500 50  0001 C CNN
+F 4 "771-74LV17APWJ" H 5650 6500 50  0001 C CNN "Mouser Part No"
+F 5 "0.36" H 5650 6500 50  0001 C CNN "Pricing (EUR)"
 	4    5650 6500
 	0    1    1    0   
 $EndComp
@@ -572,7 +589,9 @@ P 3150 6000
 F 0 "U5" H 3100 6150 50  0000 R CNN
 F 1 "74LVC06A" V 3080 5870 50  0001 R CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3150 6000 50  0001 C CNN
-F 3 "" H 3150 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc06a.pdf" H 3150 6000 50  0001 C CNN
+F 4 "595-SN74LVC06APW" H 3150 6000 50  0001 C CNN "Mouser Part No"
+F 5 "0.35" H 3150 6000 50  0001 C CNN "Pricing (EUR)"
 	2    3150 6000
 	0    -1   -1   0   
 $EndComp
@@ -583,7 +602,9 @@ P 4150 1350
 F 0 "U5" H 4125 1525 50  0000 C CNN
 F 1 "74LVC06A" H 4125 1526 50  0001 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4150 1350 50  0001 C CNN
-F 3 "" H 4150 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc06a.pdf" H 4150 1350 50  0001 C CNN
+F 4 "595-SN74LVC06APW" H 4150 1350 50  0001 C CNN "Mouser Part No"
+F 5 "0.35" H 4150 1350 50  0001 C CNN "Pricing (EUR)"
 	3    4150 1350
 	1    0    0    -1  
 $EndComp
@@ -594,7 +615,9 @@ P 1100 6350
 F 0 "U5" H 1050 6500 50  0000 R CNN
 F 1 "74LVC06A" H 1075 6526 50  0001 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1100 6350 50  0001 C CNN
-F 3 "" H 1100 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc06a.pdf" H 1100 6350 50  0001 C CNN
+F 4 "595-SN74LVC06APW" H 1100 6350 50  0001 C CNN "Mouser Part No"
+F 5 "0.35" H 1100 6350 50  0001 C CNN "Pricing (EUR)"
 	5    1100 6350
 	0    -1   -1   0   
 $EndComp
@@ -605,7 +628,9 @@ P 1550 6050
 F 0 "U5" H 1400 6200 50  0000 C CNN
 F 1 "74LVC06A" H 1525 6226 50  0001 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1550 6050 50  0001 C CNN
-F 3 "" H 1550 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc06a.pdf" H 1550 6050 50  0001 C CNN
+F 4 "595-SN74LVC06APW" H 1550 6050 50  0001 C CNN "Mouser Part No"
+F 5 "0.35" H 1550 6050 50  0001 C CNN "Pricing (EUR)"
 	6    1550 6050
 	0    -1   -1   0   
 $EndComp
@@ -616,7 +641,9 @@ P 5850 6000
 F 0 "U5" H 5800 6150 50  0000 R CNN
 F 1 "74LVC06A" V 5780 5870 50  0001 R CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5850 6000 50  0001 C CNN
-F 3 "" H 5850 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc06a.pdf" H 5850 6000 50  0001 C CNN
+F 4 "595-SN74LVC06APW" H 5850 6000 50  0001 C CNN "Mouser Part No"
+F 5 "0.35" H 5850 6000 50  0001 C CNN "Pricing (EUR)"
 	1    5850 6000
 	0    -1   -1   0   
 $EndComp
@@ -781,9 +808,11 @@ L buffers:74AHCV17A U4
 U 3 1 5E4BD9A5
 P 5050 1350
 F 0 "U4" H 4850 1200 50  0000 L CNN
-F 1 "74AHCV17A" V 5070 1480 50  0001 L CNN
+F 1 "74LV17A" V 5070 1480 50  0001 L CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5050 1350 50  0001 C CNN
-F 3 "" H 5050 1350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LV17A.pdf" H 5050 1350 50  0001 C CNN
+F 4 "771-74LV17APWJ" H 5050 1350 50  0001 C CNN "Mouser Part No"
+F 5 "0.36" H 5050 1350 50  0001 C CNN "Pricing (EUR)"
 	3    5050 1350
 	1    0    0    -1  
 $EndComp
@@ -974,7 +1003,9 @@ P 2750 6350
 F 0 "U5" H 2700 6500 50  0000 R CNN
 F 1 "74LVC06A" V 2680 6220 50  0001 R CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2750 6350 50  0001 C CNN
-F 3 "" H 2750 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc06a.pdf" H 2750 6350 50  0001 C CNN
+F 4 "595-SN74LVC06APW" H 2750 6350 50  0001 C CNN "Mouser Part No"
+F 5 "0.35" H 2750 6350 50  0001 C CNN "Pricing (EUR)"
 	4    2750 6350
 	0    -1   -1   0   
 $EndComp
@@ -1146,7 +1177,9 @@ AR Path="/5E3E1F66/5E433190" Ref="U7"  Part="1"
 F 0 "U7" H 4600 5900 50  0000 C CNN
 F 1 "74LVC2G132" H 4625 6226 50  0001 C CNN
 F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 4650 6050 50  0001 C CNN
-F 3 "" H 4650 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g132.pdf" H 4650 6050 50  0001 C CNN
+F 4 "595-SN74LVC2G132DCUR" H 4650 6050 50  0001 C CNN "Mouser Part No"
+F 5 "0.37" H 4650 6050 50  0001 C CNN "Pricing (EUR)"
 	1    4650 6050
 	0    1    1    0   
 $EndComp
@@ -1163,7 +1196,9 @@ AR Path="/5E3E1F66/5E479977" Ref="U7"  Part="2"
 F 0 "U7" H 5050 5900 50  0000 C CNN
 F 1 "74LVC2G132" H 5075 5874 50  0001 C CNN
 F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 5100 6050 50  0001 C CNN
-F 3 "" H 5100 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g132.pdf" H 5100 6050 50  0001 C CNN
+F 4 "595-SN74LVC2G132DCUR" H 5100 6050 50  0001 C CNN "Mouser Part No"
+F 5 "0.37" H 5100 6050 50  0001 C CNN "Pricing (EUR)"
 	2    5100 6050
 	0    1    1    0   
 $EndComp
