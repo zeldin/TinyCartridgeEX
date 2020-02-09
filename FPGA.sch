@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:TinyCartridgeEX-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -172,19 +171,17 @@ Text GLabel 6550 4600 2    50   Output ~ 0
 NMI_OUT
 Text GLabel 4950 4600 0    50   Output ~ 0
 RW_OUT
-Text GLabel 6550 4500 2    50   Input ~ 0
+Text GLabel 6550 4300 2    50   Input ~ 0
 RESET_IN
-Text GLabel 4950 4500 0    50   Input ~ 0
+Text GLabel 6550 4500 2    50   Input ~ 0
 RW_IN
 Text GLabel 6550 4400 2    50   Input ~ 0
 DOTCLK
-Text GLabel 3800 4300 0    50   Input ~ 0
-~ROML
-Text GLabel 3800 4500 0    50   Input ~ 0
-~ROMH
-Text GLabel 4950 4300 0    50   Input ~ 0
-PHI2
 Text GLabel 6550 4200 2    50   Input ~ 0
+ROMLH
+Text GLabel 4950 4500 0    50   Input ~ 0
+PHI2
+Text GLabel 4950 4300 0    50   Input ~ 0
 BA
 Text GLabel 6550 4100 2    50   BiDi ~ 0
 A14
@@ -238,10 +235,8 @@ Wire Wire Line
 	6350 4800 6550 4800
 Text GLabel 4650 3800 0    50   Output ~ 0
 A_DIR
-Text GLabel 7700 4200 2    50   Input ~ 0
-~IO1
-Text GLabel 7700 4400 2    50   Input ~ 0
-~IO2
+Text GLabel 4950 4400 0    50   Input ~ 0
+IO12
 Text GLabel 4950 3700 0    50   Output ~ 0
 DMA
 Wire Wire Line
@@ -249,57 +244,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 4400 6550 4400
 Wire Wire Line
-	3800 4300 3950 4300
+	4950 4400 5150 4400
 Wire Wire Line
-	3950 4300 3950 4350
-Wire Wire Line
-	3950 4350 4050 4350
-Wire Wire Line
-	3800 4500 3950 4500
-Wire Wire Line
-	3950 4500 3950 4450
-Wire Wire Line
-	3950 4450 4050 4450
-Wire Wire Line
-	4600 4400 5150 4400
-Wire Wire Line
-	6350 4300 6950 4300
-Wire Wire Line
-	7500 4350 7600 4350
-Wire Wire Line
-	7600 4350 7600 4400
-Wire Wire Line
-	7600 4400 7700 4400
-Wire Wire Line
-	7700 4200 7600 4200
-Wire Wire Line
-	7600 4200 7600 4250
-Wire Wire Line
-	7600 4250 7500 4250
+	6350 4300 6550 4300
 Wire Wire Line
 	6350 3800 6550 3800
 Wire Wire Line
 	4650 3800 5150 3800
-$Comp
-L buffers:74LVC2G132 U8
-U 1 1 5E3F2081
-P 4350 4400
-F 0 "U8" H 4325 4667 50  0000 C CNN
-F 1 "74LVC2G132" H 4325 4576 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 4350 4400 50  0001 C CNN
-F 3 "" H 4350 4400 50  0001 C CNN
-	1    4350 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L buffers:74LVC2G132 U8
-U 2 1 5E3F22EE
-P 7200 4300
-F 0 "U8" H 7175 4033 50  0000 C CNN
-F 1 "74LVC2G132" H 7175 4124 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 7200 4300 50  0001 C CNN
-F 3 "" H 7200 4300 50  0001 C CNN
-	2    7200 4300
-	-1   0    0    1   
-$EndComp
 $EndSCHEMATC
