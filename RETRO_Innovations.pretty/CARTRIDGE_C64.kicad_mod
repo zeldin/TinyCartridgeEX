@@ -1,4 +1,4 @@
-(module CARTRIDGE_C64 (layer F.Cu) (tedit 0)
+(module CARTRIDGE_C64 (layer F.Cu) (tedit 5E402165)
   (fp_text reference CART (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
@@ -30,6 +30,5 @@
   (fp_line (start 34.036 0) (end 34.036 -88.138) (layer Dwgs.User) (width 0.1))
   (fp_line (start 31.4325 0) (end 34.036 0) (layer Dwgs.User) (width 0.1))
   (fp_line (start -34.036 0) (end -31.4325 0) (layer Dwgs.User) (width 0.1))
-  (pad "" np_thru_hole circle (at 0 -46.99) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 -43.815) (size 5.08 5.08) (drill 5.08) (layers *.Cu *.Mask))
 )
