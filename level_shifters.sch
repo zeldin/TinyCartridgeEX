@@ -61,7 +61,7 @@ F 3 "" H 10000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_LevelTranslator:SN74AVC8T245PW U2
+L buffers:SN74AVC8T245PW U2
 U 1 1 5E417FDE
 P 2250 2450
 F 0 "U2" H 1900 1800 50  0000 C CNN
@@ -74,7 +74,7 @@ F 5 "0.92" H 2250 2450 50  0001 C CNN "Pricing (EUR)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_LevelTranslator:SN74AVC8T245PW U3
+L buffers:SN74AVC8T245PW U3
 U 1 1 5E417FE4
 P 7650 2650
 F 0 "U3" H 7300 3200 50  0000 C CNN
@@ -87,7 +87,7 @@ F 5 "0.92" H 7650 2650 50  0001 C CNN "Pricing (EUR)"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Logic_LevelTranslator:SN74AVC8T245PW U1
+L buffers:SN74AVC8T245PW U1
 U 1 1 5E417FFA
 P 5600 2650
 F 0 "U1" H 5250 3200 50  0000 C CNN
