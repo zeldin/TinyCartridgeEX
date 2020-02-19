@@ -6,12 +6,16 @@ actually available yet, there are also a number of open questions
 such as:
 
 * Does the width of the module match a standard DIL-48 socket?
+  - Yes it does
 
 * Is it OK to power the module by feeding +5V into the `Vin` pin,
   and use the `3v3` pin(s) to power auxilliary logic?  (I would
   assume so, but needs to be verified.)
 
 * Are all the 42 numbered pins capable of 3.3V I/O (I sure hope so)?
+
+
+![Board render](TinyCartridgeEX.png)
 
 
 TinyCartridge EX
