@@ -52,12 +52,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0106
 U 1 1 5E3FEBE5
-P 5550 1950
-F 0 "#PWR0106" H 5550 1800 50  0001 C CNN
-F 1 "+5V" H 5565 2123 50  0000 C CNN
-F 2 "" H 5550 1950 50  0001 C CNN
-F 3 "" H 5550 1950 50  0001 C CNN
-	1    5550 1950
+P 5150 1950
+F 0 "#PWR0106" H 5150 1800 50  0001 C CNN
+F 1 "+5V" H 5165 2123 50  0000 C CNN
+F 2 "" H 5150 1950 50  0001 C CNN
+F 3 "" H 5150 1950 50  0001 C CNN
+	1    5150 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -82,8 +82,6 @@ Wire Wire Line
 NoConn ~ 5850 2100
 Wire Wire Line
 	5650 2000 5550 2000
-Wire Wire Line
-	5550 2000 5550 1950
 Text GLabel 4650 2700 0    50   Output ~ 0
 A_~EN
 Wire Wire Line
@@ -326,4 +324,21 @@ NoConn ~ 9900 3850
 NoConn ~ 9900 3950
 NoConn ~ 9900 4050
 NoConn ~ 9900 4150
+$Comp
+L Device:D D1
+U 1 1 5E4EE9D6
+P 5400 2000
+F 0 "D1" H 5400 1900 50  0000 C CNN
+F 1 "EC30QSA045" H 5400 2100 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 5400 2000 50  0001 C CNN
+F 3 "http://prdct-search.kyocera.co.jp/function/upload/products_01/EC30QSA045-file.pdf?" H 5400 2000 50  0001 C CNN
+F 4 "346-EC30QSA045" H 5400 2000 50  0001 C CNN "Mouser Part No"
+F 5 "0.38" H 5400 2000 50  0001 C CNN "Pricing (EUR)"
+	1    5400 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 1950 5150 2000
+Wire Wire Line
+	5150 2000 5250 2000
 $EndSCHEMATC

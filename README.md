@@ -11,6 +11,8 @@ such as:
 * Is it OK to power the module by feeding +5V into the `Vin` pin,
   and use the `3v3` pin(s) to power auxilliary logic?  (I would
   assume so, but needs to be verified.)
+  - Seems legit.  The DC/DC for 3.3V works with input voltage down
+    to 3.8V, so add a protection diode with Vf < 1V.
 
 * Are all the 42 numbered pins capable of 3.3V I/O (I sure hope so)?
 
