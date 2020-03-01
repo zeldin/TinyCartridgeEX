@@ -15,6 +15,8 @@ such as:
     to 3.8V, so add a protection diode with Vf < 1V.
 
 * Are all the 42 numbered pins capable of 3.3V I/O (I sure hope so)?
+  - Accoring to published schematics, VCCIO0-2 and VCCIO6-8 are all tied
+  to 3.3V, which should cover all 42 pins.
 
 
 ![Board render](TinyCartridgeEX.png)
