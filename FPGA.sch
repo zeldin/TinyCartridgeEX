@@ -21,7 +21,7 @@ P 5150 2700
 F 0 "U9" H 5400 3150 60  0000 C CNN
 F 1 "TinyFPGA_EX" V 5750 1550 60  0000 C CNN
 F 2 "TinyFPGA:TinyFPGA_EX" H 5150 2700 50  0001 C CNN
-F 3 "" H 5150 2700 50  0001 C CNN
+F 3 "https://www.crowdsupply.com/tinyfpga/tinyfpga-ex" H 5150 2700 50  0001 C CNN
 	1    5150 2700
 	1    0    0    -1  
 $EndComp
